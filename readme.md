@@ -20,4 +20,7 @@ projects to properly learn Swift.
 
 <h2>Project 2: Guess the Flag</h2>
 <p>This project is a game that shows random flags to users asking them to choose which
-one belongs to a particular country.</p>
+one belongs to a particular country. I completed the wrap up challenges as well. This
+includes showing the player's score in the navigation bar, keeping track of questions
+answered and showing a final score after 10 before resetting, and when user chooses
+wrong flag they're told "wrong, this is the flag of X". </p>
