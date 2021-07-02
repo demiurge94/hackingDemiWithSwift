@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         if questionsAsked == 10{
             questionsAsked = 0
             score = 0
-        }
+        } 
         correctAnswer = Int.random(in: 0...2)
         button1.setImage(UIImage(named: countries[0]), for: .normal)
         button2.setImage(UIImage(named: countries[1]), for: .normal)
