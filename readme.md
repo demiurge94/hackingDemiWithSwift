@@ -13,9 +13,9 @@ projects to properly learn Swift.
 * Twitter: [@demiurge94](https://twitter.com/demiurge94)
 * Github: [@demiurge94](https://github.com/demiurge94)
 
-##Project 1: Wallpaper Viewer (original is Storm Viewer)
-This project creates a simple iOS application that lists a number of images which the user can tap on to view. I used my personal wallpaper folder for the images with the extension .jpg for the project.
+<h2>Project 1: Wallpaper Viewer (original is Storm Viewer) </h2>
+<p>This project creates a simple iOS application that lists a number of images which the user can tap on to view. I used my personal wallpaper folder for the images with the extension .jpg for the project.</p>
 
-##Project 2: Guess the Flag
-This project is a game that shows random flags to users asking them to choose which
-one belongs to a particular country.
+<h2>Project 2: Guess the Flag</h2>
+<p>This project is a game that shows random flags to users asking them to choose which
+one belongs to a particular country.</p>
