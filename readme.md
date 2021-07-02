@@ -6,9 +6,10 @@
 </p>
 This is the repo for my traversal through [Hacking with Swift](https://www.hackingwithswift.com/read)
 projects to properly learn Swift.
+
 ## Author
 
-👤 **Erick vicencio**
+👤 **Erick Vicencio**
 
 * Twitter: [@demiurge94](https://twitter.com/demiurge94)
 * Github: [@demiurge94](https://github.com/demiurge94)
