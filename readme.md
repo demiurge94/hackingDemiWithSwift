@@ -4,7 +4,7 @@
     <img alt="Twitter: demiurge94" src="https://img.shields.io/twitter/follow/demiurge94.svg?style=social" />
   </a>
 </p>
-This is the repo for my traversal through [Hacking with Swift](https://www.hackingwithswift.com/read)
+>This is the repo for my traversal through [Hacking with Swift](https://www.hackingwithswift.com/read)
 projects to properly learn Swift.
 
 ## Author
