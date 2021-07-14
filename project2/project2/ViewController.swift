@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var score = 0
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Score", style: .done, target: self, action: #selector(showScoreOnTap))
         countries.append("Estonia")
         countries.append("France")
         countries.append("Germany")
@@ -55,7 +56,7 @@ class ViewController: UIViewController {
         button2.setImage(UIImage(named: countries[1]), for: .normal)
         button3.setImage(UIImage(named: countries[2]), for: .normal)
         correctAnswer = Int.random(in: 0...2)
-        title = "\(countries[correctAnswer].uppercased())    score: \(score) "
+        title = "\(countries[correctAnswer].uppercased())"
         questionsAsked += 1
     }
     @IBAction func buttonTapped(_ sender: UIButton) {
@@ -83,6 +84,14 @@ class ViewController: UIViewController {
             ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion)) //if we use askQuestion() it is telling the compiler "run this now, and IT will tell you the name of the method to run.
             present(ac, animated: true)
         }
+    }
+    @objc func showScoreOnTap() {
+        let currentScore = score
+        
+        let vc = UIAlertController(title: "Current Score", message: " \(currentScore)", preferredStyle: .alert)
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        vc.addAction(UIAlertAction(title: "Keep Playing", style: .cancel, handler: {action in}))
+        present(vc, animated: true)
     }
     
 
